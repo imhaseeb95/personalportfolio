@@ -61,4 +61,8 @@
 	.footer-container .logo {
 		font-size: 1.8rem;
 	}
+
+	nav ul {
+		gap: 0.5rem;
+	}
 }
