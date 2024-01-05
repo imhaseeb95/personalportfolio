@@ -65,4 +65,8 @@
 	nav ul {
 		gap: 0.5rem;
 	}
+
+	.skills-container {
+		flex-wrap: wrap;
+	}
 }
