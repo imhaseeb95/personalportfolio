@@ -4,8 +4,34 @@
 		padding: 0 15px;
 	}
 }
+@media screen and (max-width: 939px) {
+	.project-sec .grid-column-three {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media screen and (max-width: 767px) {
+	.hero-sec .grid-column-two {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 0rem;
+	}
+	.work-card-container .grid-column-two {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.skills-container {
+		flex-wrap: wrap;
+	}
+	.dive-in-sec {
+		margin: 3rem auto 0;
+	}
+}
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 639px) {
+	.project-sec .grid-column-three {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media screen and (max-width: 539px) {
 	.grid-column-five {
 		grid-template-columns: repeat(3, 1fr);
 	}
@@ -15,7 +41,7 @@
 	}
 
 	.logo {
-		font-size: 1rem;
+		font-size: 1.2rem;
 	}
 
 	.header-container {
@@ -36,7 +62,7 @@
 	}
 
 	.about-content {
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 
 	.getin-touch {
@@ -66,7 +92,20 @@
 		gap: 0.5rem;
 	}
 
+	nav ul li a {
+		font-size: 1rem;
+	}
+
 	.skills-container {
+		flex-wrap: wrap;
+	}
+	.sec-work .work-content p {
+		font-size: 1rem;
+	}
+	.sec-work .work-content h2 {
+		font-size: 2rem;
+	}
+	.work-content ul {
 		flex-wrap: wrap;
 	}
 }
