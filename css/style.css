@@ -167,6 +167,10 @@ nav ul li:hover::before {
 .hero-main-cantainer h1 {
 	font-size: 4rem;
 	color: var(--color-white);
+	line-height: 1.3;
+}
+.hero-main-cantainer {
+	padding-top: 5rem;
 }
 
 .profile {
