@@ -165,7 +165,7 @@ nav ul li:hover::before {
 	background-size: cover;
 }
 .hero-main-cantainer h1 {
-	font-size: 2.5rem;
+	font-size: 4rem;
 	color: var(--color-white);
 }
 
@@ -255,7 +255,7 @@ nav ul li:hover::before {
 .sec-skill h2 {
 	color: var(--color-blue-shade);
 	text-align: center;
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
 
 .development-skill {
@@ -306,7 +306,7 @@ nav ul li:hover::before {
 .sec-work h2 {
 	text-align: center;
 	color: var(--color-blue-shade);
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 }
 .sec-work .grid-column-two {
 	align-items: inherit;
@@ -375,7 +375,7 @@ nav ul li:hover::before {
 .work-content ul {
 	display: flex;
 	gap: 0.5rem;
-	margin-bottom: 1rem;
+	margin: 2rem 0;
 }
 .work-content ul li {
 	padding: 0.5rem 1rem;

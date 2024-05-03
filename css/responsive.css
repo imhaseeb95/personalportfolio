@@ -23,12 +23,24 @@
 	.dive-in-sec {
 		margin: 3rem auto 0;
 	}
+	.work-card-container {
+		margin-bottom: 2rem;
+	}
+	.projects-btn {
+		font-size: 1rem;
+	}
 }
 
 @media screen and (max-width: 639px) {
 	.project-sec .grid-column-three {
 		grid-template-columns: repeat(1, 1fr);
 	}
+	.hero-main-cantainer h1 {
+		font-size: 4rem;
+	}
+	/* .hero-main-cantainer {
+		text-align: center;
+	} */
 }
 
 @media screen and (max-width: 539px) {
